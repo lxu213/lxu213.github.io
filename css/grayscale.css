@@ -200,6 +200,17 @@ a:focus, a:hover {
   margin: 20px;
 }
 
+.ceremony-title {
+  font-size: 26px;
+  /*font-style: italic;*/
+  margin: 0 0 8px;
+}
+
+.ceremony-description {
+  font-size: 16px;
+  /*font-style: italic;*/
+}
+
 .tod-title {
   margin: 10px;
 }
