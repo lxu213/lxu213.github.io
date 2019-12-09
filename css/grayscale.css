@@ -47,7 +47,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #00FFFF;
 }
 
 a:focus, a:hover {
@@ -204,39 +204,104 @@ a:focus, a:hover {
   margin: 20px;
 }
 
-.ceremony-title {
+.section-title {
   font-family: 'Pinyon Script', cursive;
-  font-size: 30px;
+  font-size: 40px;
   font-style: italic;
+  line-height: 200%;
   margin: 0 0 8px;
+  margin-top: 40px;
+  margin-bottom: 40px
 }
 
 .ceremony-description {
   letter-spacing: 2.5px;
-  font-size: 14px;
+  font-size: 17px;
+  line-height: 150%;
   margin-bottom: 30px;
 }
 
+.ceremony-image {
+  letter-spacing: 2.5px;
+  font-size: 15px;
+  line-height: 200%;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+.ceremony-detail-section {
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
 .ceremony-details {
+  line-height: 150%;
   font-weight: 200;
-  font-size: 13px;
+  font-size: 14px;
   font-style: italic;
-  margin-bottom: 5px;
+  text-align: center;
 }
 
 .description {
-  letter-spacing: 1.5px;
-  font-size: 14px;
+  letter-spacing: 1.2px;
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 20px;
   margin-bottom: 40px;
+  overflow-wrap: break-word;
 }
 
 .rsvp-content {
   font-size: 16px;
 }
 
+.tod-section {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
 .tod-title {
-  font-style: italic;
-  margin: 10px;
+  font-size: 26px;
+  box-sizing: border-box;
+  font-weight: 300;
+  letter-spacing: 5px;
+  /* font-style: italic; */
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.tod-image {
+  border-radius: 50%;
+}
+
+.entry {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #fcfcfc;
+}
+
+.entry-description {
+  margin-bottom: 30px;
+  line-height: 2;
+}
+
+.entry-btn {
+  margin-bottom: 40px;
+}
+
+.rsvp-description {
+  letter-spacing: 2.5px;
+  font-size: 19px;
+  line-height: 150%;
+  margin-bottom: 80px;
+}
+
+.rsvp-container {
+  margin-top: 60px;
+  margin-bottom: 80px;
 }
 
 #map {
@@ -255,7 +320,7 @@ a:focus, a:hover {
 }
 
 .btn {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Josefins Sans', sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -265,16 +330,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #00FFFF;
+  border: 1px solid #00FFFF;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #42DCA3;
+  border: 1px solid #00FFFF;
   outline: none;
-  background-color: #42DCA3;
+  background-color: #00FFFF;
 }
 
 ul.banner-social-buttons {
